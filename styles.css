@@ -1,0 +1,62 @@
+* {
+    font-family: Bradley Hand, cursive
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: rgb(37, 86, 109);
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+
+button {
+    font-size: 20px;
+    padding: 24px 40px;
+    border-radius: 8px;
+}
+#grid {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    border: solid;
+    display: grid;
+}
+
+.box {
+    /* border: solid; */
+    border-width: 1px;
+    
+}
+
+.copyright {
+    background-color: white;
+    padding: 25px 0px;
+}
